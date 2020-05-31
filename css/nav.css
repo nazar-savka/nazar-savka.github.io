@@ -1,0 +1,64 @@
+nav {
+    background: linear-gradient(to right, #fff, #9a9a9a);
+    position: fixed;
+    width: 100%;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 9997;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact a {
+    height: 36px;
+    width: 36px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.instagram {
+    background-image: url(../img/Instagram.png);
+}
+
+.youtube {
+    background-image: url(../img/YouTube.png);
+}
+
+.menu {
+    display: flex;
+    margin-left: 15px;
+}
+
+.menu .nav-link {
+    border-radius: 8px;
+    height: 36px;
+    width: 10px;
+    margin-left: 14px;
+    background-color: #ccc;
+}
+
+.menu .nav-link:hover {
+    background-color: #777;
+}
+
+@media screen and (max-width:640px) {
+
+    .menu .nav-link {
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    
+    .contact {
+        display:none;
+    }
+
+}
